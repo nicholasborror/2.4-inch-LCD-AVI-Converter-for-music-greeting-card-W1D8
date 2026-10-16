@@ -1,8 +1,10 @@
 # 2.4-inch LCD AVI Converter
 
-![Image description](image1.jpg)
 
-![Image description](image2.jpg)
+<img src="image1.jpg" width="30%" alt="Image 1">
+
+<img src="image2.jpg" width="30%" alt="Image 2">
+
 
 Convert an MP4 (or another video format supported by FFmpeg) into the unusual AVI format used by some inexpensive **2.4-inch, 320x240 LCD media players**. No installation of the vendor's sketchy Windows conversion app is required.
 
@@ -61,15 +63,10 @@ lcd-avi-converter/
 
 Specify a different output name:
 
-```bash
+```bash or cmd
 python lcd_avi_converter.py my_video.mp4 converted.avi
 ```
 
-On Windows, you can use a quoted path, for example:
-
-```powershell
-python lcd_avi_converter.py "C:\Videos\clip.mp4" "C:\Videos\clip_device.avi" --template "C:\LCD\video.avi"
-```
 
 Copy the resulting `.avi` file to the device's storage and test playback. **Keep a backup of the original `video.avi` and `VIDEO.LIB` somewhere off of the device.**
 
