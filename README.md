@@ -1,5 +1,9 @@
 # 2.4-inch LCD AVI Converter
 
+![Image description](image1.jpg)
+
+![Image description](image2.jpg)
+
 Convert an MP4 (or another video format supported by FFmpeg) into the unusual AVI format used by some inexpensive **2.4-inch, 320x240 LCD media players**. No installation of the vendor's sketchy Windows conversion app is required.
 
 > [!IMPORTANT]
